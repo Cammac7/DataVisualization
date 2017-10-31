@@ -421,7 +421,7 @@
 				"Query"
 			],
 			"key" : "Query",
-			"size" : 1
+			"size" : 0
 		},
 		{
 			"colorCode" : "Exploration Actions",
