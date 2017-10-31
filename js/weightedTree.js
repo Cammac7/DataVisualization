@@ -245,6 +245,9 @@ function linkColor(linkCode) {
 	  case 'Meta Actions':
 		  return '#00FFFF';//cyan
 		  break;
+      case 'invisible':
+          return '#00FFFFFF';//transparent
+          break;
 	  default:
 		  return '#0950D0';//generic blue
 		  break;
