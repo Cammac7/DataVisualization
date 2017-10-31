@@ -30,7 +30,7 @@ d3.json("https://raw.githubusercontent.com/Cammac7/DataVisualization/master/data
   root.x0 = height / 2;
   root.y0 = 0;
   //make root invisible
-  root.fill = '#ffffff';
+  root.fill = '#00AA00';
   root.stroke = '#ffffff';
   root.pointerEvents = 'none';
   root.children.forEach(collapse);
