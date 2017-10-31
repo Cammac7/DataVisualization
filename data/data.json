@@ -421,7 +421,7 @@
 				"Query"
 			],
 			"key" : "Query",
-			"size" : 0
+			"size" : 55
 		},
 		{
 			"colorCode" : "Exploration Actions",
@@ -2078,6 +2078,6 @@
 			"size" : 1
 		}
 	],
-	"name" : "",
-	"size" : 198
+	"name" : "Root",
+	"size" : 0
 }
