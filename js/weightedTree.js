@@ -231,28 +231,27 @@ function expandAll() {
  * in the data set
 */
 function linkColor(linkCode) {
-	switch (linkCode)
-	{
-	  case 'Exploration Actions': 
-	  	  return '#0000FF';//blue
-	      break;
-	  case 'Task Actions':
-	  	  return '#FF7F00';//orange
-	  	  break;
-	  case 'App Actions': 
-		  return '#FF0000';//red
-		  break;
-	  case 'Insight Actions':
-		  return '#7F007F';//purple
-		  break;
-	  case 'Meta Actions':
-          return '#00FFFF';//cyan
-          break;
-      case 'invisible':
-          return '#000000';//transparent
-          break;
-	  default:
-		  return '#0950D0';//generic blue
-		  break;
+	switch (linkCode) {
+        case 'Exploration Actions': 
+            return '#0000FF';//blue
+            break;
+        case 'Task Actions':
+            return '#FF7F00';//orange
+            break;
+        case 'App Actions': 
+            return '#FF0000';//red
+            break;
+        case 'Insight Actions':
+            return '#7F007F';//purple
+            break;
+        case 'Meta Actions':
+            return '#00FFFF';//cyan
+            break;
+        case 'invisible':
+            return '#000000';//transparent
+            break;
+        default:
+            return '#0950D0';//generic blue
+            break;
 	}
 }
