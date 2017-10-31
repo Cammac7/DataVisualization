@@ -246,7 +246,7 @@ function linkColor(linkCode) {
           return '#00FFFF';//cyan
           break;
       case 'invisible':
-          return '#FFFFFF';//transparent
+          return '#000000';//transparent
           break;
 	  default:
 		  return '#0950D0';//generic blue
