@@ -230,10 +230,10 @@ function expandAll() {
 function linkColor(linkCode) {
 	switch (linkCode) {
         case 'Exploration Actions': 
-            return '#0000FF';//blue
+            return '#00000F';//blue
             break;
         case 'Task Actions':
-            return '#00000F';//black
+            return '#FF7F00';//black
             break;
         case 'App Actions': 
             return '#FF0000';//red
