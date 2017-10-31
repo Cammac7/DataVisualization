@@ -1,4 +1,5 @@
-{[{
+{
+    "children" : [{
 	"children" : [
 		{
 			"colorCode" : "Exploration Actions",
@@ -426,8 +427,7 @@
 	],
 	"name" : "assignment/ass1-anna-activities",
 	"size" : 198
-},
-{
-	"name" : "OtherGraph",
-	"size" : 100
-}]}
+},{"name" : "OtherGraph","size" : 100}],
+    "name": "upper",
+    "size": 2
+}
