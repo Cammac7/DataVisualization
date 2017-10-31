@@ -1,4 +1,4 @@
-{{
+{[{
 	"children" : [
 		{
 			"colorCode" : "Exploration Actions",
@@ -430,4 +430,4 @@
 {
 	"name" : "OtherGraph",
 	"size" : 100
-}}
+}]}
