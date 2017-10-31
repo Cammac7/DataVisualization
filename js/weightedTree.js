@@ -29,10 +29,7 @@ d3.json("https://raw.githubusercontent.com/Cammac7/DataVisualization/master/data
   root = flare;
   root.x0 = height / 2;
   root.y0 = 0;
-  //make root invisible
-  root.fill = '#00AA00';
-  root.stroke = '#ffffff';
-  root.pointerEvents = 'none';
+  root.attr("class","root");
   root.children.forEach(collapse);
   update(root);
 });
